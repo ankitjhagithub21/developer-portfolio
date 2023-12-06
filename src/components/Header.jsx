@@ -7,7 +7,7 @@ const Header = () => {
   const roles = ['Full Stack Developer.', 'Youtuber.', 'Student.'];
 
   return (
-    <div className='my-5' id='header'>
+    <div className='my-5' id='header' data-aos="fade-down">
       
       <h1 className='display-4 fw-bold'>👋 HEY, I AM {name}</h1>
       <div className='d-flex gap-1 fs-3 font-bold p-3'>

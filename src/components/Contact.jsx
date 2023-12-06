@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className='row my-5 py-5' id='contact' >
+    <section className='row my-5 py-5' id='contact' data-aos="fade-up">
        <h2 className='fs-4 mb-3 text-center'>Send me a message</h2>
        <div className="col-md-8 mx-auto">
         <form action="https://formspree.io/f/xgejgvok"

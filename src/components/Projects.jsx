@@ -57,7 +57,7 @@ const Projects = () => {
 
   return (
     <section id='projects' className='my-5'>
-      <h2 className='display-5 fw-bold  mb-3'>PROJECTS</h2>
+      <h2 className='display-5 fw-bold  mb-3' data-aos="fade-up">PROJECTS</h2>
       <div className='row'>
       {
         projects.map((project)=>{

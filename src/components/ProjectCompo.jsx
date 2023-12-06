@@ -4,7 +4,7 @@ import React from 'react'
 const ProjectCompo = ({ project }) => {
 
     return (
-        <div className='col-md-6 d-flex flex-wrap project'>
+        <div className='col-md-6 d-flex flex-wrap project' data-aos="fade-up">
 
             <div className="project-container">
                 <img src={project.path} alt="project" className='img-fluid' />

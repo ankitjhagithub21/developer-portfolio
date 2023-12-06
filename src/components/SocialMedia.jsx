@@ -30,7 +30,7 @@ const SocialMedia = () => {
     <div className='d-flex gap-3 px-3'>
         {
             links.map((link)=>{
-                return <a href={link.path} target='_blank' className='border'>
+                return <a href={link.path} target='_blank' className='border' key={link.id}>
                     <i className={link.class}></i>
                 </a>
             })
